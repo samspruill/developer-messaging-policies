@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>SMS Authentication Opt-In</title>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 800px;
+        margin: 60px auto;
+        padding: 0 24px;
+        line-height: 1.6;
+        color: #222;
+    }
+
+    h1 {
+        margin-bottom: 8px;
+    }
+
+    h2 {
+        margin-top: 32px;
+    }
+
+    .subtitle {
+        color: #555;
+        margin-bottom: 32px;
+    }
+
+    .example-box {
+        margin-top: 24px;
+        padding: 24px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        background: #fafafa;
+    }
+
+    .phone-input {
+        width: 100%;
+        max-width: 320px;
+        box-sizing: border-box;
+        padding: 10px;
+        margin: 8px 0 16px 0;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+    }
+
+    .consent-row {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin: 18px 0;
+    }
+
+    .consent-row input {
+        margin-top: 5px;
+    }
+
+    .button-example {
+        display: inline-block;
+        padding: 10px 18px;
+        border: 1px solid #555;
+        border-radius: 4px;
+        background: #eee;
+        color: #222;
+        font-weight: bold;
+    }
+
+    .disclosure {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #444;
+    }
+
+    footer {
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        font-size: 14px;
+        color: #666;
+    }
+
+    a {
+        color: #0066cc;
+    }
+</style>
+
+
+</head>
+
+<body>
+
+
+<main>
+
+    <h1>SMS Authentication Opt-In</h1>
+
+    <p class="subtitle">
+        Authentication, verification, and one-time passcode messaging
+    </p>
+
+    <p>
+        Users may choose SMS as an authentication or account verification
+        method within applications that use this messaging service.
+    </p>
+
+    <p>
+        SMS messages are sent only after the user voluntarily selects SMS
+        verification and explicitly requests a verification code.
+    </p>
+
+    <h2>How Users Opt In</h2>
+
+    <p>
+        An end-user provides or confirms a mobile phone number and selects
+        SMS as the desired authentication or verification method.
+    </p>
+
+    <p>
+        Before requesting a verification code, the user is informed that
+        selecting SMS authorizes the application to send transactional
+        authentication and verification messages to the provided mobile
+        number.
+    </p>
+
+    <p>
+        SMS messages are user-initiated and are not used for unsolicited
+        marketing or promotional communications.
+    </p>
+
+    <h2>Example Opt-In Experience</h2>
+
+    <div class="example-box">
+
+        <h3>SMS Verification</h3>
+
+        <p>
+            Enter or confirm the mobile phone number where you would like
+            to receive your verification code.
+        </p>
+
+        <label for="phone">
+            Mobile Phone Number
+        </label>
+
+        <br>
+
+        <input
+            id="phone"
+            class="phone-input"
+            type="text"
+            value="(555) 555-1234"
+            disabled>
+
+        <div class="consent-row">
+            <input
+                id="sms-consent"
+                type="checkbox"
+                checked
+                disabled>
+
+            <label for="sms-consent">
+                I agree to receive SMS authentication and verification
+                messages at the mobile number provided.
+            </label>
+        </div>
+
+        <div class="button-example">
+            Send Verification Code
+        </div>
+
+        <p class="disclosure">
+            Message frequency varies based on authentication activity.
+            Message and data rates may apply.
+        </p>
+
+        <p class="disclosure">
+            SMS messages are used only for authentication, verification,
+            security, and related transactional purposes.
+        </p>
+
+    </div>
+
+    <h2>Message Frequency</h2>
+
+    <p>
+        Message frequency varies based on user activity. Messages are
+        generally sent only when the user initiates an authentication,
+        account verification, or related security process.
+    </p>
+
+    <h2>Opt-Out and Help</h2>
+
+    <p>
+        Where supported, users may reply <strong>STOP</strong> to
+        discontinue SMS messages and <strong>HELP</strong> for assistance.
+    </p>
+
+    <p>
+        Users who discontinue SMS messaging may need to select another
+        available authentication or verification method.
+    </p>
+
+    <h2>Privacy</h2>
+
+    <p>
+        Mobile phone numbers and SMS consent information are not sold,
+        rented, or shared with third parties or affiliates for marketing
+        or promotional purposes.
+    </p>
+
+    <p>
+        Please review the
+        <a href="privacy.html">SMS Messaging Privacy Policy</a>
+        and
+        <a href="terms.html">SMS Messaging Terms and Conditions</a>
+        for additional information.
+    </p>
+
+</main>
+
+<footer>
+    <p>
+        <a href="index.html">Home</a> |
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms and Conditions</a>
+    </p>
+</footer>
+
+
+</body>
+</html>
