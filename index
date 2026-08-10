@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>SMS Messaging Policies</title>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 800px;
+        margin: 60px auto;
+        padding: 0 24px;
+        line-height: 1.6;
+        color: #222;
+    }
+
+    h1 {
+        margin-bottom: 8px;
+    }
+
+    .subtitle {
+        color: #555;
+        margin-bottom: 32px;
+    }
+
+    .policy-links {
+        margin-top: 30px;
+    }
+
+    .policy-links a {
+        display: block;
+        margin: 12px 0;
+        font-size: 18px;
+    }
+
+    footer {
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        font-size: 14px;
+        color: #666;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<main>
+
+    <h1>SMS Messaging Policies</h1>
+
+    <p class="subtitle">
+        Authentication, verification, and transactional messaging
+    </p>
+
+    <p>
+        This site provides the policies governing SMS messaging used
+        for authentication, account verification, security notifications,
+        and software development and testing.
+    </p>
+
+    <p>
+        SMS messages are user-initiated and may include one-time
+        verification codes or other transactional security messages.
+        SMS messaging is not used for unsolicited marketing or
+        promotional communications.
+    </p>
+
+    <div class="policy-links">
+
+        <h2>Policies</h2>
+
+        <a href="privacy.html">
+            SMS Messaging Privacy Policy
+        </a>
+
+        <a href="terms.html">
+            SMS Messaging Terms and Conditions
+        </a>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>
+        SMS messaging is intended for authentication, verification,
+        security, and related transactional purposes.
+    </p>
+</footer>
+```
+
+</body>
+</html>
